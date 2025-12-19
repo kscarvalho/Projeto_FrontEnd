@@ -10,10 +10,12 @@
 
 <body>
   <h2>Cadastro</h2>
-  <input type="text" id="name" placeholder="Nome">
-  <input type="email" id="email" placeholder="Email">
-  <input type="password" id="password" placeholder="Senha">
-  <button onclick="register()">Cadastrar</button>
+  <form id="registerForm">
+    <input id="name" type="text" placeholder="Nome" required />
+    <input id="email" type="email" placeholder="Email" required />
+    <input id="password" type="password" placeholder="Senha" required />
+    <button type="submit">Cadastrar</button>
+  </form>
   <p><a href="index.html">Voltar</a></p>
   <script src="script.js"></script>
 </body>
