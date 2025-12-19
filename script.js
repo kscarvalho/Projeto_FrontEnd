@@ -1,4 +1,4 @@
-const API_URL = 'https://SEU-BACKEND.onrender.com';
+const API_URL = 'https://projeto-backend-1-r6l2.onrender.com/';
 
 function register() {
   fetch(`${API_URL}/register`, {
